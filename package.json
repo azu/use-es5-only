@@ -1,0 +1,27 @@
+{
+  "name": "use-es5-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/use-es5-only.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/use-es5-only",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/use-es5-only/issues"
+  },
+  "version": "1.0.0",
+  "description": "use es5 only",
+  "main": "lib/use-es5-only.js",
+  "scripts": {
+    "test:es6": "eslint es6",
+    "test:es5": "eslint es5"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "devDependencies": {
+    "eslint": "^2.10.2"
+  }
+}
